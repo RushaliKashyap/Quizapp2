@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context=".MainActivity">
+
+
+
+   <TextView
+       android:id="@+id/text1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="1. Which one of the following is a loop construct that will always be executed once?
+
+"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+      />
+   <RadioGroup
+       android:id="@+id/radio1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/For"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="for"
+         android:textStyle="bold"
+         android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"/>
+
+      <RadioButton
+          android:id="@+id/While"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="while"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"/>
+      <RadioButton
+          android:id="@+id/Switch"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="switch"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"/>
+      <RadioButton
+          android:id="@+id/DoWhile"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="do while"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"/>
+   </RadioGroup>
+
+
+<TextView
+    android:id="@+id/text2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:text="2. Directives are translated by the"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="20dp"
+   />
+   <RadioGroup
+       android:id="@+id/radio2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/Pre"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="Pre-processor"
+         android:textStyle="bold"
+         android:textSize="18dp"
+         android:textColor="@color/design_default_color_primary"/>
+
+      <RadioButton
+          android:id="@+id/Comiler"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Compiler"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"/>
+      <RadioButton
+          android:id="@+id/Linker"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Linker"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"/>
+      <RadioButton
+          android:id="@+id/Edit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Editor"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"/>
+   </RadioGroup>
+
+   <TextView
+       android:id="@+id/text3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="3.  How many bytes does int = D use?"
+       android:textColor="@color/black"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       />
+   <RadioGroup
+       android:id="@+id/radio3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+      <RadioButton
+          android:id="@+id/Zero"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="0"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"
+          />
+      <RadioButton
+          android:id="@+id/One"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="1"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"
+          />
+
+      <RadioButton
+          android:id="@+id/Two"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="2 or 4"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"
+          />
+      <RadioButton
+          android:id="@+id/ten"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="10"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:textColor="@color/design_default_color_primary"
+          />
+   </RadioGroup>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+      android:text="Submit"
+       android:layout_gravity="center"
+       android:textStyle="bold"
+       />
+
+</LinearLayout>

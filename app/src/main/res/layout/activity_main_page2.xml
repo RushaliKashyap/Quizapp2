@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF018786"
+    android:padding="16dp"
+    tools:context=".mainPage">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/download"
+        android:translationX="30dp"
+        android:translationY="30dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:text="Quiz App"
+        android:translationX="170dp"
+        android:translationY="30dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textStyle="bold"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        android:translationX="30dp"
+
+        />
+</RelativeLayout>
